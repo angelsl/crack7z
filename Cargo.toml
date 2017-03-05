@@ -1,0 +1,14 @@
+[package]
+name = "crack7z"
+version = "0.1.0"
+authors = ["angelsl <hidingfromhidden@gmail.com>"]
+
+[dependencies]
+openssl = "^0.9.7"
+rustc-serialize = "^0.3.22"
+crc = "^1.4.0"
+encoding = "^0.2.33"
+clippy = {version = "*", optional = true}
+
+[features]
+default = []
